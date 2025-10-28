@@ -1,0 +1,208 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "bob",
+      "password": "bob123",
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "username": "bea",
+      "password": "bea123",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "username": "xi",
+      "password": "xi123",
+      "role": "user"
+    },
+    {
+      "id": 6,
+      "username": "leo",
+      "password": "leo123",
+      "role": "user"
+    }
+  ],
+  "uploads": [
+    {
+      "id": 29,
+      "ownerId": 2,
+      "filename": "uploads/329dbe4d-cc3e-47d2-8cd9-513890f0ef12-7_50.mp4",
+      "originalName": "7_50.mp4",
+      "mimeType": "video/mp4",
+      "size": 0,
+      "displayName": "1",
+      "note": "1",
+      "createdAt": "2025-09-25T12:38:21.140Z",
+      "updatedAt": "2025-09-25T12:38:21.140Z"
+    },
+    {
+      "id": 30,
+      "ownerId": 2,
+      "filename": "uploads/1ecc235f-b7ae-4cc5-b0ad-b2c55e2c820b-1miné£æ¯.mp4",
+      "originalName": "1miné£æ¯.mp4",
+      "mimeType": "video/mp4",
+      "size": 3821902,
+      "displayName": "2",
+      "note": "2",
+      "createdAt": "2025-09-25T12:57:54.621Z",
+      "updatedAt": "2025-09-25T12:57:54.621Z"
+    },
+    {
+      "id": 31,
+      "ownerId": 2,
+      "filename": "uploads/5356a5b1-2822-4d23-814c-1951c58799f3-1miné£æ¯.mp4",
+      "originalName": "1miné£æ¯.mp4",
+      "mimeType": "video/mp4",
+      "size": 3821902,
+      "displayName": "3",
+      "note": "3",
+      "createdAt": "2025-09-25T14:17:38.135Z",
+      "updatedAt": "2025-09-25T14:17:38.135Z"
+    },
+    {
+      "id": 32,
+      "ownerId": 2,
+      "filename": "uploads/fe5a7829-6d67-452f-bae2-a5de0b69075e-1miné£æ¯.mp4",
+      "originalName": "1miné£æ¯.mp4",
+      "mimeType": "video/mp4",
+      "size": 3821902,
+      "displayName": "4",
+      "note": "4",
+      "createdAt": "2025-09-25T14:45:36.078Z",
+      "updatedAt": "2025-09-25T14:45:36.078Z"
+    },
+    {
+      "id": 33,
+      "ownerId": 2,
+      "filename": "uploads/1758812074851.mp4",
+      "originalName": "1miné£æ¯.mp4",
+      "mimeType": "video/mp4",
+      "size": 3821902,
+      "displayName": "5",
+      "note": "5",
+      "createdAt": "2025-09-25T14:54:37.133Z",
+      "updatedAt": "2025-09-25T14:54:37.133Z"
+    }
+  ],
+  "outputs": [
+    {
+      "id": 18,
+      "ownerId": 2,
+      "uploadId": "29",
+      "filename": "outputs/1758804159469-1758804145088-out.mp4",
+      "originalName": "7_50.mp4",
+      "mimeType": "video/mp4",
+      "size": 30801812,
+      "displayName": "1",
+      "note": "1",
+      "createdAt": "2025-09-25T12:42:50.150Z",
+      "updatedAt": "2025-09-25T12:42:50.150Z"
+    },
+    {
+      "id": 19,
+      "ownerId": 2,
+      "uploadId": "30",
+      "filename": "outputs/1758805078169-1758805076221-out.mp4",
+      "originalName": "1miné£æ¯.mp4",
+      "mimeType": "video/mp4",
+      "size": 3945981,
+      "displayName": "2",
+      "note": "2",
+      "createdAt": "2025-09-25T12:57:59.713Z",
+      "updatedAt": "2025-09-25T12:57:59.713Z"
+    },
+    {
+      "id": 20,
+      "ownerId": 2,
+      "uploadId": "30",
+      "filename": "outputs/1758805094580-1758805092668-out.mp4",
+      "originalName": "1miné£æ¯.mp4",
+      "mimeType": "video/mp4",
+      "size": 3945981,
+      "displayName": "2 (transcoded)",
+      "note": "Transcoded via My Documents",
+      "createdAt": "2025-09-25T12:58:16.161Z",
+      "updatedAt": "2025-09-25T12:58:16.161Z"
+    },
+    {
+      "id": 21,
+      "ownerId": 2,
+      "uploadId": "31",
+      "filename": "outputs/1758809862491-1758809859874-out.mp4",
+      "originalName": "1miné£æ¯.mp4",
+      "mimeType": "video/mp4",
+      "size": 3945981,
+      "displayName": "3",
+      "note": "3",
+      "createdAt": "2025-09-25T14:17:45.191Z",
+      "updatedAt": "2025-09-25T14:17:45.191Z"
+    },
+    {
+      "id": 22,
+      "ownerId": 2,
+      "uploadId": "29",
+      "filename": "outputs/1758809894949-1758809881500-out.mp4",
+      "originalName": "7_50.mp4",
+      "mimeType": "video/mp4",
+      "size": 30801812,
+      "displayName": "1 (transcoded)",
+      "note": "Transcoded via My Documents",
+      "createdAt": "2025-09-25T14:18:27.525Z",
+      "updatedAt": "2025-09-25T14:18:27.525Z"
+    },
+    {
+      "id": 23,
+      "ownerId": 2,
+      "uploadId": "32",
+      "filename": "outputs/1758811337592-1758811335056-out.mp4",
+      "originalName": "1miné£æ¯.mp4",
+      "mimeType": "video/mp4",
+      "size": 3945981,
+      "displayName": "4",
+      "note": "4",
+      "createdAt": "2025-09-25T14:42:19.166Z",
+      "updatedAt": "2025-09-25T14:42:19.166Z"
+    },
+    {
+      "id": 24,
+      "ownerId": 2,
+      "uploadId": "32",
+      "filename": "outputs/1758811539560-1758811537097-out.mp4",
+      "originalName": "1miné£æ¯.mp4",
+      "mimeType": "video/mp4",
+      "size": 3945981,
+      "displayName": "4",
+      "note": "4",
+      "createdAt": "2025-09-25T14:45:41.381Z",
+      "updatedAt": "2025-09-25T14:45:41.381Z"
+    },
+    {
+      "id": 25,
+      "ownerId": 2,
+      "uploadId": "33",
+      "filename": "outputs/1758812080764-1758812078127-out.mp4",
+      "originalName": "1miné£æ¯.mp4",
+      "mimeType": "video/mp4",
+      "size": 3945981,
+      "displayName": "5",
+      "note": "5",
+      "createdAt": "2025-09-25T14:54:42.535Z",
+      "updatedAt": "2025-09-25T14:54:42.535Z"
+    }
+  ]
+}

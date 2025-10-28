@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Video Upload & Transcode</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <h1>Video Transcoding</h1>
+
+    <!-- 上传表单 -->
+    <form id="uploadForm">
+        <label>Select File:</label>
+        <input type="file" id="videoFile" accept="video/*" name="file" required><br><br>
+
+        <label>Display Name:</label>
+        <input type="text" id="displayName" placeholder="Enter display name"><br><br>
+
+        <label>Note:</label>
+        <textarea id="note" placeholder="Enter notes..."></textarea><br><br>
+
+        <button type="submit">Upload</button>
+    </form>
+
+    <!-- 转码按钮，初始隐藏 -->
+    <button id="transcodeBtn" style="display:none;">Transcode</button>
+
+    <p id="status"></p>
+
+    <div class="buttons">
+        <button onclick="window.location.href='dashboard.html'">⬅ Back to Dashboard</button>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="/js/common.js"></script>
+    <script src="/js/transcode.js"></script>
+</body>
+
+</html>

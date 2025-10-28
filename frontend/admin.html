@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Admin Dashboard</h1>
+
+    <!-- Users -->
+    <h2>Users</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Username</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody id="usersTable"></tbody>
+    </table>
+    <div id="usersPagination"></div>
+
+    <!-- Uploads -->
+    <h2>All Uploads</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Owner</th>
+                <th>Original Name</th>
+                <th>Display Name</th>
+                <th>Note</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="uploadsTable"></tbody>
+    </table>
+    <div id="uploadsPagination"></div>
+
+    <!-- Outputs -->
+    <h2>All Outputs</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Owner</th>
+                <th>Original Name</th>
+                <th>Display Name</th>
+                <th>Note</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="outputsTable"></tbody>
+    </table>
+    <div id="outputsPagination"></div>
+
+    <button onclick="window.location.href='index.html'">⬅ Back to Login</button>
+    <button id="logoutBtn">Logout</button>
+
+    <script src="js/common.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+
+</html>

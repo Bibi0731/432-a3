@@ -1,0 +1,21 @@
+{
+    "name": "root-scripts",
+    "private": true,
+    "scripts": {
+        "dev": "npm --prefix backend run dev",
+        "start": "npm --prefix backend start"
+    },
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.896.0",
+        "@aws-sdk/s3-request-presigner": "^3.896.0",
+        "bcrypt": "^5.1.1",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "fluent-ffmpeg": "^2.1.2",
+        "fs-extra": "^11.2.0",
+        "jsonwebtoken": "^9.0.2",
+        "multer": "^2.0.2",
+        "multer-s3": "^3.0.1",
+        "uuid": "^9.0.1"
+    }
+}

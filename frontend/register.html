@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Register</h1>
+
+    <!-- 注册表单 -->
+    <form id="registerForm">
+        <label>Username:</label>
+        <input type="text" id="username" required>
+
+        <label>Email:</label>
+        <input type="email" id="email" required>
+
+        <label>Password:</label>
+        <input type="password" id="password" required>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- 邮箱确认表单（注册成功后显示） -->
+    <div id="confirmBox" style="display:none; margin-top:20px;">
+        <h2>Confirm Registration</h2>
+        <label>Confirmation Code (check your email):</label>
+        <input type="text" id="code" required>
+        <button id="confirmBtn">Confirm</button>
+    </div>
+
+    <script src="js/register.js"></script>
+</body>
+
+</html>

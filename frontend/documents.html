@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Documents</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>My Documents</h1>
+
+    <h2>Uploaded Videos</h2>
+    <div>
+        <input type="text" id="searchUploads" placeholder="Search uploads...">
+        <button id="searchUploadsBtn">Search</button>
+    </div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Display Name</th>
+                <th>Original Name</th>
+                <th>Note</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="uploadsTable"></tbody>
+    </table>
+    <div id="uploadsPagination"></div>
+
+    <h2>Transcoded Outputs</h2>
+    <div>
+        <input type="text" id="searchOutputs" placeholder="Search outputs...">
+        <button id="searchOutputsBtn">Search</button>
+    </div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Display Name</th>
+                <th>Original Name</th>
+                <th>Note</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="outputsTable"></tbody>
+    </table>
+    <div id="outputsPagination"></div>
+
+    <button onclick="window.location.href='dashboard.html'">⬅ Back to Dashboard</button>
+    <button id="logoutBtn">Logout</button>
+
+    <script src="js/common.js"></script>
+    <script src="js/documents.js"></script>
+</body>
+
+</html>
