@@ -13,6 +13,10 @@ import {
     PutObjectCommand,
 } from "@aws-sdk/client-s3";
 
+import dotenv from "dotenv";
+dotenv.config();
+console.log("✅ Loaded AWS_REGION =", process.env.AWS_REGION);
+
 const app = express();
 app.use(bodyParser.json());
 
