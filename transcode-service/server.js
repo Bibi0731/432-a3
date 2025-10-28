@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 // 环境变量
 const region = process.env.AWS_REGION;
 const bucketName = process.env.AWS_S3_BUCKET;
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5000; // change to5000
 
 // S3 client
 const s3 = new S3Client({ region });
