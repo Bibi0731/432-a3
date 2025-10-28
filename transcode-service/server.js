@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 // 环境变量
 const region = process.env.AWS_REGION;
 const bucketName = process.env.AWS_S3_BUCKET;
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 5000;
 
 // S3 client
 const s3 = new S3Client({ region });
@@ -110,7 +110,7 @@ app.get("/", (req, res) => {
 });
 
 // 启动服务
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 app.listen(port, () => {
     console.log(`🚀 Transcode service running on http://localhost:${PORT}`);
 });
